@@ -1,0 +1,10 @@
+---
+import { Card } from "react-bootstrap";
+
+const { name } = Astro.props;
+---
+
+<>
+    <Card.Title as="h4">{name}</Card.Title>
+    <slot/>
+</>
