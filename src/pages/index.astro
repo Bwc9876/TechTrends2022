@@ -15,7 +15,15 @@ import { Github } from "react-bootstrap-icons";
 		<Container className="p-4">
 			<Row id="top" className="py-2 border-start border-end border-secondary">
 				<Col>
-					<h1 class="d-flex align-items-center"><img class="me-2" height="50" width="50" alt="Tech Trends Logo" src="/favicon.svg"/> Tech Trends 2022</h1>
+					<h1 class="d-flex align-items-center">
+						<img
+							class="me-2"
+							height="50"
+							width="50"
+							alt="Tech Trends Logo"
+							src="/favicon.svg"
+						/> Tech Trends 2022
+					</h1>
 					<small class="ps-1 text-muted">By Benjamin Crocker</small>
 				</Col>
 				<Col>
@@ -38,26 +46,50 @@ import { Github } from "react-bootstrap-icons";
 				<Col>
 					<RowCol className="border-start border-secondary">
 						<h2>What Is This?</h2>
-						<p>This site outlines the current tech trends of 2022, and provides insight and resources into how they're currently doing, how they are predicted to do, and examples of them today.</p>
-						<p class="mb-1">Either scroll down or use the list on the right to get started</p>
+						<p>
+							This site outlines the current tech trends of 2022, and provides insight
+							and resources into how they're currently doing, how they are predicted
+							to do, and examples of them today.
+						</p>
+						<p class="mb-1">
+							Either scroll down or use the list on the right to get started
+						</p>
 					</RowCol>
-						<TrendCard name="Edge Computing" id="edge-computing" imgSrc="/images/edge_computing.webp">
-							<p slot="overview">Edge computing decentralizes an application to make websites faster by having multiple computers around the world (the network of these being called the "edge") running the same application, that way visitors to a site can contact the nearest server instead of one from all the way around the world.</p>
-							<ul slot="pros">
-								<li>Faster Load Times</li>
-								<li>Prevents Cold-Starts</li>
-							</ul>
-							<ul slot="cons">
-								<li>Costly</li>
-							</ul>
-							<ul slot="more-info">
-								<li><ExtLink href="https://www.ibm.com/cloud/what-is-edge-computing">IBM's article on edge computing</ExtLink>, which gives an explanation to how edge computing works</li>
-								<li><ExtLink href="https://www.youtube.com/watch?v=yOP5-3_WFus">This video by Fireship</ExtLink>, which compares edge computing to cloud functions</li>
-							</ul>
-						</TrendCard>
-						<TrendCard name="Artificial Intelligence" id="ai">
-							<p slot="overview">Lorem ipsum dolor sit amet</p>
-						</TrendCard>
+					<TrendCard
+						name="Edge Computing"
+						id="edge-computing"
+						imgSrc="/images/edge_computing.webp"
+					>
+						<p slot="overview">
+							Edge computing decentralizes an application to make websites faster by
+							having multiple computers around the world (the network of these being
+							called the "edge") running the same application, that way visitors to a
+							site can contact the nearest server instead of one from all the way
+							around the world.
+						</p>
+						<ul slot="pros">
+							<li>Faster Load Times</li>
+							<li>Prevents Cold-Starts</li>
+						</ul>
+						<ul slot="cons">
+							<li>Costly</li>
+						</ul>
+						<ul slot="more-info">
+							<li>
+								<ExtLink href="https://www.ibm.com/cloud/what-is-edge-computing"
+									>IBM's article on edge computing</ExtLink
+								>, which gives an explanation to how edge computing works
+							</li>
+							<li>
+								<ExtLink href="https://www.youtube.com/watch?v=yOP5-3_WFus"
+									>This video by Fireship</ExtLink
+								>, which compares edge computing to cloud functions
+							</li>
+						</ul>
+					</TrendCard>
+					<TrendCard name="Artificial Intelligence" id="ai">
+						<p slot="overview">Lorem ipsum dolor sit amet</p>
+					</TrendCard>
 				</Col>
 				<Col sm="1" />
 				<Col sm="2" className="pe-0">
