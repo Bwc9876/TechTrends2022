@@ -1,13 +1,170 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 36 36">
-  <path fill="#000" d="M22.25 4h-8.5a1 1 0 0 0-.96.73l-5.54 19.4a.5.5 0 0 0 .62.62l5.05-1.44a2 2 0 0 0 1.38-1.4l3.22-11.66a.5.5 0 0 1 .96 0l3.22 11.67a2 2 0 0 0 1.38 1.39l5.05 1.44a.5.5 0 0 0 .62-.62l-5.54-19.4a1 1 0 0 0-.96-.73Z"/>
-  <path fill="url(#gradient)" d="M18 28a7.63 7.63 0 0 1-5-2c-1.4 2.1-.35 4.35.6 5.55.14.17.41.07.47-.15.44-1.8 2.93-1.22 2.93.6 0 2.28.87 3.4 1.72 3.81.34.16.59-.2.49-.56-.31-1.05-.29-2.46 1.29-3.25 3-1.5 3.17-4.83 2.5-6-.67.67-2.6 2-5 2Z"/>
-  <defs>
-    <linearGradient id="gradient" x1="16" x2="16" y1="32" y2="24" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#000"/>
-      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="favicon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title19469">Tech Trends 2022 Icon</title>
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.85058594"
+     inkscape:cx="205.1527"
+     inkscape:cy="335.06315"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient19977">
+      <stop
+         style="stop-color:#312eff;stop-opacity:1"
+         offset="0"
+         id="stop19973" />
+      <stop
+         style="stop-color:#6d7c95;stop-opacity:0"
+         offset="1"
+         id="stop19975" />
     </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient19977"
+       id="linearGradient19981"
+       x1="267.35287"
+       y1="275.10449"
+       x2="270.04434"
+       y2="750.9162"
+       gradientUnits="userSpaceOnUse" />
   </defs>
-	<style>
-    @media (prefers-color-scheme:dark){:root{filter:invert(100%)}}
-  </style>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#f0ffff;stroke:url(#linearGradient19981);stroke-width:5.383;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect7755"
+       width="484.41742"
+       height="477.83237"
+       x="15.283583"
+       y="17.634901"
+       ry="93.877151"
+       rx="96.22847" />
+    <g
+       id="g19789"
+       transform="matrix(-0.82295227,0,0,0.82641124,634.2006,42.71554)"
+       style="stroke-width:1.2126">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:672.223px;line-height:1.25;font-family:sans-serif;fill:#0000cd;fill-opacity:1;stroke:#b0c4de;stroke-width:12.2472;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="191.89058"
+         y="504.33566"
+         id="text19779"
+         transform="scale(1.0235128,0.97702736)"><tspan
+           sodipodi:role="line"
+           id="tspan19777"
+           x="191.89058"
+           y="504.33566"
+           style="fill:#0000cd;stroke:#b0c4de;stroke-width:12.2472;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">t</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.2126"
+         x="340.94144"
+         y="-27.040184"
+         id="text19783"><tspan
+           sodipodi:role="line"
+           id="tspan19781"
+           x="340.94144"
+           y="-27.040184"
+           style="stroke-width:1.2126" /></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:672.223px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:#4169e1;stroke-width:12.2472;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="184.9239"
+         y="495.10605"
+         id="text19787"
+         transform="scale(1.0235128,0.97702736)"><tspan
+           sodipodi:role="line"
+           id="tspan19785"
+           x="184.9239"
+           y="495.10605"
+           style="fill:#0000ff;stroke:#4169e1;stroke-width:12.2472;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">t</tspan></text>
+    </g>
+    <g
+       id="g19789-8"
+       transform="matrix(0.82295232,0,0,0.8264113,-122.07081,43.609927)"
+       style="stroke-width:1.21259">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:672.223px;line-height:1.25;font-family:sans-serif;fill:#0000cd;fill-opacity:1;stroke:#b0c4de;stroke-width:12.2472;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="191.89058"
+         y="504.33566"
+         id="text19779-7"
+         transform="scale(1.0235128,0.97702736)"><tspan
+           sodipodi:role="line"
+           id="tspan19777-9"
+           x="191.89058"
+           y="504.33566"
+           style="fill:#0000cd;stroke:#b0c4de;stroke-width:12.2472;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">t</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.21259"
+         x="340.94144"
+         y="-27.040184"
+         id="text19783-0"><tspan
+           sodipodi:role="line"
+           id="tspan19781-4"
+           x="340.94144"
+           y="-27.040184"
+           style="stroke-width:1.21259" /></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:672.223px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:#4169e1;stroke-width:12.2472;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="184.9239"
+         y="495.10605"
+         id="text19787-3"
+         transform="scale(1.0235128,0.97702736)"><tspan
+           sodipodi:role="line"
+           id="tspan19785-8"
+           x="184.9239"
+           y="495.10605"
+           style="fill:#0000ff;stroke:#4169e1;stroke-width:12.2472;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">t</tspan></text>
+    </g>
+  </g>
+  <metadata
+     id="metadata19467">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Tech Trends 2022 Icon</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>
