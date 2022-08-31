@@ -6,6 +6,14 @@ import RowCol from "./RowCol.astro";
 const { id, name, imgSrc } = Astro.props;
 ---
 
+<style>
+    .card-title: {
+        background: var(--cool-gradient);
+        -webkit-background-clip: text;
+        -webkit-text-fill: transparent;
+    }
+</style>
+
 <RowCol className="trend-card mt-5 border-start border-secondary">
     <Card className="border-0">
         <Card.Body>
