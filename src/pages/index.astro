@@ -11,9 +11,8 @@ import { Github } from "react-bootstrap-icons";
 ---
 
 <Layout>
-	<main>
 		<Container className="p-4">
-			<Row id="top" className="py-2 border-start border-end border-secondary">
+			<Row as="header" id="top" className="py-2 border-start border-end border-secondary">
 				<Col>
 					<h1 class="d-flex align-items-center">
 						<img
@@ -42,7 +41,7 @@ import { Github } from "react-bootstrap-icons";
 					</div>
 				</Col>
 			</Row>
-			<Row className="mt-5">
+			<Row as="main" className="mt-5">
 				<Col>
 					<RowCol className="border-start border-secondary">
 						<h2>What Is This?</h2>
@@ -94,7 +93,7 @@ import { Github } from "react-bootstrap-icons";
 				<Col sm="1" />
 				<Col sm="2" className="pe-0">
 					<div class="border-end border-secondary pe-2 py-2 my-2 sticky-top">
-						<small class="ps-1 text-muted"><b>Jump To</b></small>
+						<small class="ps-1 text-muted fw-bold">Jump To</small>
 						<Navbar className="flex-column align-items-stretch">
 							<Nav className="flex-column">
 								<Nav.Link href="#top">Top</Nav.Link>
@@ -106,5 +105,4 @@ import { Github } from "react-bootstrap-icons";
 				</Col>
 			</Row>
 		</Container>
-	</main>
 </Layout>
