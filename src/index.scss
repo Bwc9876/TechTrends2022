@@ -4,7 +4,7 @@ $acc-dark: mix(black, $accent, 45%);
 $acc-light: mix(white, $accent, 50%);
 
 :root {
-    --cool-gradient: linear-gradient(
+    --accent-gradient: linear-gradient(
         180deg,
         #{$acc-light} 0%,
         #{$accent} 25%,
@@ -13,14 +13,14 @@ $acc-light: mix(white, $accent, 50%);
 }
 
 .gradient-text {
-    background: var(--cool-gradient);
+    background: var(--accent-gradient);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .border-cool {
-    border-image-source: var(--cool-gradient);
+    border-image-source: var(--accent-gradient);
     border-image-slice: 1;
 }
 
@@ -29,5 +29,5 @@ $acc-light: mix(white, $accent, 50%);
 }
 
 .social-button:hover {
-    background-image: var(--cool-gradient);
+    background-image: var(--accent-gradient);
 }
