@@ -10,7 +10,7 @@ const { id, name, imgSrc, imgWidth, imgHeight } = Astro.props;
     <RowCol className="trend-card mt-5 border-start border-cool">
         <Card className="border-0">
             <Card.Body>
-                <Card.Title className="gradient-text" id={id} as="h2">{name}</Card.Title>
+                <Card.Title className="gradient-text pb-2" id={id} as="h2">{name}</Card.Title>
                 {
                     imgSrc && (
                         <Image

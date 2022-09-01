@@ -2,25 +2,22 @@
 $accent: hsl(204deg 100% 44%);
 $acc-dark: mix(black, $accent, 45%);
 $acc-light: mix(white, $accent, 50%);
-
-:root {
-    --accent-gradient: linear-gradient(
-        180deg,
-        #{$acc-light} 0%,
-        #{$accent} 25%,
-        #{$acc-dark} 70%
-    );
-}
+$acc-gradient: linear-gradient(
+    180deg,
+    #{$acc-light} 0%,
+    #{$accent} 25%,
+    #{$acc-dark} 70%
+);
 
 .gradient-text {
-    background: var(--accent-gradient);
+    background: $acc-gradient;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .border-cool {
-    border-image-source: var(--accent-gradient);
+    border-image-source: $acc-gradient;
     border-image-slice: 1;
 }
 
@@ -29,5 +26,5 @@ $acc-light: mix(white, $accent, 50%);
 }
 
 .social-button:hover {
-    background-image: var(--accent-gradient);
+    background-image: $acc-gradient;
 }
