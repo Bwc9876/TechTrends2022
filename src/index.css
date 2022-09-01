@@ -21,3 +21,8 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.border-cool {
+    border-image-source: var(--cool-gradient);
+    border-image-slice: 1;
+}

@@ -7,24 +7,15 @@ import TrendCard from "@components/TrendCard.astro";
 import ExtLink from "@components/ExtLink.astro";
 
 import Layout from "@layouts/Layout.astro";
-import { Container, Row, Col, Button, Nav, Navbar } from "react-bootstrap";
+import { Container, Row, Col, Button, Nav, Navbar, Card } from "react-bootstrap";
 import { Github } from "react-bootstrap-icons";
 ---
 
 <Layout>
     <Container className="p-4">
-        <Row as="header" id="top" className="py-2 border-start border-end border-secondary">
+        <Row as="header" id="top" className="py-2 border-start border-end border-cool">
             <Col>
-                <h1 class="d-flex align-items-center">
-                    <img
-                        class="me-2"
-                        height="50"
-                        width="50"
-                        alt="Tech Trends Logo"
-                        src="/favicon.svg"
-                    />
-                    <span class="gradient-text">Tech Trends 2022</span>
-                </h1>
+                <h1 class="d-flex align-items-center gradient-text">Tech Trends 2022</h1>
                 <small class="ps-1 text-muted">By Benjamin Crocker</small>
             </Col>
             <Col>
@@ -45,21 +36,27 @@ import { Github } from "react-bootstrap-icons";
         </Row>
         <Row as="main" className="mt-5">
             <Col>
-                <RowCol className="border-start border-secondary">
-                    <h2 class="gradient-text">What Is This?</h2>
-                    <p>
-                        This site outlines the current tech trends of 2022, and provides insight and
-                        resources into how they're currently doing, how they are predicted to do,
-                        and examples of them today.
-                    </p>
-                    <p class="mb-1">
-                        Either scroll down or use the list on the right to get started
-                    </p>
+                <RowCol as="section" className="border-start border-cool">
+					<Card className="border-0">>
+						<Card.Body>
+							<Card.Title as="h2" class="gradient-text">What Is This?</h2>
+							<Card.Text as="p">
+								This site outlines the current tech trends of 2022, and provides insight and
+								resources into how they're currently doing, how they are predicted to do,
+								and examples of them today.
+							</Card.Text>
+							<Card.Text as="p" class="mb-1">
+								Either scroll down or use the list on the right to get started
+							</Card.Text>
+						</Card.Body>
+					</Card>
                 </RowCol>
                 <TrendCard
                     name="Edge Computing"
                     id="edge-computing"
                     imgSrc="/images/edge_computing.webp"
+					imgWidth="400"
+					imgHeight="210"
                 >
                     <p slot="overview">
                         Edge computing decentralizes an application to make websites faster by
@@ -95,7 +92,7 @@ import { Github } from "react-bootstrap-icons";
             <Col sm="1" />
             <Col sm="3" className="pe-0">
                 <div class="pe-2 py-2 mb-2 sticky-top">
-                    <div class="border-end border-secondary mt-5">
+                    <div class="border-end border-cool mt-5">
                         <small class="ps-1 text-muted fw-bold">Jump To</small>
                         <Navbar className="flex-column align-items-stretch">
                             <Nav className="flex-column">
