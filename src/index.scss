@@ -1,14 +1,14 @@
+
+$accent: hsl(204deg 100% 44%);
+$acc-dark: scale-color($accent, $lightness: -50%);
+$acc-light: scale-color($accent, $lightness: 50%);
+
 :root {
-    // $accent: hsl(204deg 100% 44%);
-    $accent: red;
-    --accent: $accent;
-    --acc-dark: sass:color.scale($accent, $lightness: -50%);
-    --acc-light: sass:color.scale($accent, $lightness: 50%);
     --cool-gradient: linear-gradient(
         180deg,
-        var(--acc-light) 0%,
-        var(--accent) 25%,
-        var(--acc-dark) 70%
+        $acc-light 0%,
+        $accent 25%,
+        $acc-dark 70%
     );
 }
 
