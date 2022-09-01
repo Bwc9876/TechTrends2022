@@ -8,27 +8,34 @@ const { id, name, imgSrc, imgWidth, imgHeight } = Astro.props;
 
 <section>
     <RowCol className="trend-card mt-5 border-start border-cool">
-    <Card className="border-0">
-        <Card.Body>
-            <Card.Title className="gradient-text" id={id} as="h2">{name}</Card.Title>
-            {
-                imgSrc && (
-                    <Image fluid className="rounded" width={imgWidth} height={imgHeight} src={imgSrc} alt={name} />
-                )
-            }
-            <Card.Text>
-                <slot name="overview" />
-            </Card.Text>
-            <CardSection name="Pros">
-                <slot name="pros" />
-            </CardSection>
-            <CardSection name="Cons">
-                <slot name="cons" />
-            </CardSection>
-            <CardSection name="More Info">
-                <slot name="more-info" />
-            </CardSection>
-        </Card.Body>
-    </Card>
+        <Card className="border-0">
+            <Card.Body>
+                <Card.Title className="gradient-text" id={id} as="h2">{name}</Card.Title>
+                {
+                    imgSrc && (
+                        <Image
+                            fluid
+                            className="rounded"
+                            width={imgWidth}
+                            height={imgHeight}
+                            src={imgSrc}
+                            alt={name}
+                        />
+                    )
+                }
+                <Card.Text>
+                    <slot name="overview" />
+                </Card.Text>
+                <CardSection name="Pros">
+                    <slot name="pros" />
+                </CardSection>
+                <CardSection name="Cons">
+                    <slot name="cons" />
+                </CardSection>
+                <CardSection name="More Info">
+                    <slot name="more-info" />
+                </CardSection>
+            </Card.Body>
+        </Card>
     </RowCol>
 </section>
