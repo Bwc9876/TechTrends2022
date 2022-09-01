@@ -6,9 +6,9 @@ $acc-light: mix(white, $accent, 50%);
 :root {
     --cool-gradient: linear-gradient(
         180deg,
-        $acc-light 0%,
-        $accent 25%,
-        $acc-dark 70%
+        #{$acc-light} 0%,
+        #{$accent} 25%,
+        #{$acc-dark} 70%
     );
 }
 
