@@ -5,7 +5,7 @@
     --cool-gradient: linear-gradient(
         180deg,
         var(--acc-light) 0%,
-        var(--accent) 50%,
+        var(--accent) 25%,
         var(--acc-dark) 70%
     );
 }
