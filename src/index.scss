@@ -1,7 +1,8 @@
 :root {
-    --acc-dark: hsl(228deg 93% 35%);
-    --acc-light: hsl(202deg 92% 80%);
-    --accent: hsl(204deg 100% 44%);
+    $accent: hsl(204deg 100% 44%);
+    --accent: $accent;
+    --acc-dark: color.scale($accent, $darkness:50%);
+    --acc-light: color.scale($accent, $lightness:50%);
     --cool-gradient: linear-gradient(
         180deg,
         var(--acc-light) 0%,
