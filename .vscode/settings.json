@@ -1,15 +1,17 @@
 {
-    "cSpell.enableFiletypes": [
-        "astro",
-        "markdown"
-    ],
+    "cSpell.enableFiletypes": ["astro", "markdown"],
     "cSpell.words": [
+        "Astro",
         "Crocker",
         "DALL",
         "Fireship",
         "Fireship's",
         "noopener",
         "webp",
-        "wirelessly"
-    ]
+        "wirelessly",
+        "withastro"
+    ],
+    "yaml.schemas": {
+        "https://json.schemastore.org/github-workflow.json": "file:///c%3A/Users/bwc67/WebstormProjects/TechTrends2022/.github/workflows/deploy.yml"
+    }
 }
