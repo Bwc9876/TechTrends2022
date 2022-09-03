@@ -1,13 +1,15 @@
-
 $accent: hsl(204deg 100% 44%);
 $acc-dark: mix(black, $accent, 45%);
 $acc-light: mix(white, $accent, 50%);
-$acc-gradient: linear-gradient(
-    180deg,
-    #{$acc-light} 0%,
-    #{$accent} 25%,
-    #{$acc-dark} 70%
-);
+$acc-gradient: linear-gradient(180deg, #{$acc-light} 0%, #{$accent} 25%, #{$acc-dark} 70%);
+
+.gradient-bg {
+    background: $acc-gradient;
+}
+
+.accent-text {
+    color: $accent;
+}
 
 .gradient-text {
     background: $acc-gradient;

@@ -1,5 +1,5 @@
 {
-    "name": "@example/basics",
+    "name": "tech-trends-2022",
     "version": "0.0.1",
     "private": true,
     "scripts": {
@@ -13,9 +13,9 @@
     "devDependencies": {
         "@astrojs/react": "^1.1.1",
         "@types/react-bootstrap": "^0.32.30",
-        "astro": "^1.1.2",
+        "astro": "^1.1.5",
         "prettier": "^2.7.1",
-        "prettier-plugin-astro": "^0.5.3",
+        "prettier-plugin-astro": "^0.5.4",
         "react": "^18.2.0",
         "react-bootstrap": "^2.5.0",
         "react-bootstrap-icons": "^1.8.4",
@@ -23,7 +23,7 @@
         "sass": "^1.54.8"
     },
     "dependencies": {
-        "@popperjs/core": "^2.11.5",
+        "@popperjs/core": "^2.11.6",
         "bootstrap": "^5.2.0"
     }
 }

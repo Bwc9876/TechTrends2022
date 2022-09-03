@@ -2,14 +2,16 @@
 import { Card, Image } from "react-bootstrap";
 import CardSection from "./CardSection.astro";
 import RowCol from "./RowCol.astro";
+import TopTrendBadge from "./TopTrendBadge.astro";
 
-const { id, name, imgSrc, imgWidth, imgHeight } = Astro.props;
+const { id, name, imgSrc, imgWidth, imgHeight, topTrend } = Astro.props;
 ---
 
 <section>
     <RowCol className="trend-card mt-5 border-start border-cool">
         <Card className="border-0">
             <Card.Body>
+                {topTrend && <TopTrendBadge />}
                 <Card.Title className="gradient-text pb-2" id={id} as="h2">{name}</Card.Title>
                 {
                     imgSrc && (
@@ -23,14 +25,16 @@ const { id, name, imgSrc, imgWidth, imgHeight } = Astro.props;
                         />
                     )
                 }
-                <Card.Text>
-                    <slot name="overview" />
-                </Card.Text>
+                <slot name="overview" />
                 <CardSection name="Pros">
                     <slot name="pros" />
                 </CardSection>
                 <CardSection name="Cons">
                     <slot name="cons" />
+                </CardSection>
+                <CardSection name="Societal Impact">
+                    <slot name="society" />
+                    <!-- We live in a society fr fr ong -->
                 </CardSection>
                 <CardSection name="More Info">
                     <slot name="more-info" />
