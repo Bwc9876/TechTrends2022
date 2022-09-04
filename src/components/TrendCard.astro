@@ -4,6 +4,15 @@ import CardSection from "./CardSection.astro";
 import RowCol from "./RowCol.astro";
 import TopTrendBadge from "./TopTrendBadge.astro";
 
+export interface Props {
+    id: string;
+    name: string;
+    imgSrc?: string;
+    imgHeight?: string;
+    imgWidth?: string;
+    topTrend?: boolean;
+}
+
 const { id, name, imgSrc, imgWidth, imgHeight, topTrend } = Astro.props;
 ---
 

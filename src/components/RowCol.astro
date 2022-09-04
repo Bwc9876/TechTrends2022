@@ -1,6 +1,11 @@
 ---
 import { Row, Col } from "react-bootstrap";
 
+export interface Props {
+    className?: string;
+    colClassName?: string;
+}
+
 const { className, colClassName } = Astro.props;
 ---
 
