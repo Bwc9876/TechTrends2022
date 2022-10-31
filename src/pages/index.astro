@@ -9,7 +9,7 @@ import TrendCard from "@components/TrendCard.astro";
 import Layout from "@layouts/Layout.astro";
 
 import { Button, Card, Col, Container, Nav, Navbar, Row } from "react-bootstrap";
-import { Github } from "react-bootstrap-icons";
+import { Envelope, Github } from "react-bootstrap-icons";
 ---
 
 <Layout>
@@ -23,7 +23,7 @@ import { Github } from "react-bootstrap-icons";
                 <div class="d-flex align-items-center h-100 float-end">
                     <Button
                         size="lg"
-                        className="d-flex align-items-center rounded-pill social-button"
+                        className="d-flex align-items-center rounded-pill social-button me-2"
                         variant="dark"
                         as="a"
                         href="https://github.com/Bwc9876/TechTrends2022"
@@ -31,6 +31,17 @@ import { Github } from "react-bootstrap-icons";
                         target="_blank"
                         aria-label="Open On GitHub"
                         ><Github />
+                    </Button>
+                    <Button
+                        size="lg"
+                        className="d-flex align-items-center rounded-pill social-button"
+                        variant="dark"
+                        as="a"
+                        href="mailto:bwc9876@gmail.com"
+                        rel="noopener"
+                        target="_blank"
+                        aria-label="Send Me An Email (Please Don't)"
+                        ><Envelope />
                     </Button>
                 </div>
             </Col>
