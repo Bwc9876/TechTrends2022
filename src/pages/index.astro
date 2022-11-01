@@ -4,6 +4,7 @@ import "../index.scss";
 
 import ExtLink from "@components/ExtLink.astro";
 import RowCol from "@components/RowCol.astro";
+import SocialButton from "@components/SocialButton.astro";
 import TopTrendBadge from "@components/TopTrendBadge.astro";
 import TrendCard from "@components/TrendCard.astro";
 import Layout from "@layouts/Layout.astro";
@@ -21,28 +22,8 @@ import { Envelope, Github } from "react-bootstrap-icons";
             </Col>
             <Col>
                 <div class="d-flex align-items-center h-100 float-end">
-                    <Button
-                        size="lg"
-                        className="d-flex align-items-center rounded-pill social-button me-2"
-                        variant="dark"
-                        as="a"
-                        href="https://github.com/Bwc9876/TechTrends2022"
-                        rel="noopener"
-                        target="_blank"
-                        aria-label="Open On GitHub"
-                        ><Github />
-                    </Button>
-                    <Button
-                        size="lg"
-                        className="d-flex align-items-center rounded-pill social-button"
-                        variant="dark"
-                        as="a"
-                        href="mailto:bwc9876@gmail.com"
-                        rel="noopener"
-                        target="_blank"
-                        aria-label="Send Me An Email (Please Don't)"
-                        ><Envelope />
-                    </Button>
+                    <SocialButton link="https://github.com/Bwc9876" ariaLabel="Follow me on GitHub" className="me-2"><Github /></SocialButton>
+                    <SocialButton link="mailto:bwc9876@gmail.com" ariaLabel="Send Me An Email (Please Don't)"><Envelope /></SocialButton>
                 </div>
             </Col>
         </Row>
