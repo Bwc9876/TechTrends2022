@@ -9,7 +9,7 @@ import TopTrendBadge from "@components/TopTrendBadge.astro";
 import TrendCard from "@components/TrendCard.astro";
 import Layout from "@layouts/Layout.astro";
 
-import { Button, Card, Col, Container, Nav, Navbar, Row } from "react-bootstrap";
+import { Button, Card, Col, Container, Nav, Navbar, Row, Table } from "react-bootstrap";
 import { Envelope, Github } from "react-bootstrap-icons";
 ---
 
@@ -478,6 +478,106 @@ import { Envelope, Github } from "react-bootstrap-icons";
                         </li>
                     </ul>
                 </TrendCard>
+                <RowCol className="border-start border-cool mt-5">
+                    <Card id="jobs" as="section" className="border-0">
+                        <Card.Body>
+                            <Card.Title as="h2" className="gradient-text">Jobs</Card.Title>
+                            <Table className="job-table">
+                                <thead class="gradient-text">
+                                    <tr>
+                                        <th scope="col">Job Name</th>
+                                        <th scope="col">Description</th>
+                                        <th scope="col">Salary Range</th>
+                                        <th scope="col">Read More</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Data Scientist</th>
+                                        <td>Analyze and work with data from various sources</td>
+                                        <td>$98k-$163k</td>
+                                        <td
+                                            ><ExtLink
+                                                href="https://resources.workable.com/data-scientist-job-description"
+                                                >Description</ExtLink
+                                            >
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Analytics Lead</th>
+                                        <td>Lead teams to analyze and share findings about data</td>
+                                        <td>$104k-$172k</td>
+                                        <td
+                                            ><ExtLink
+                                                href="https://www.velvetjobs.com/job-descriptions/analytics-lead"
+                                                >Description</ExtLink
+                                            >
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Data Engineer</th>
+                                        <td>Work on systems to aggregate and analyze data</td>
+                                        <td>$67k-$134k</td>
+                                        <td
+                                            ><ExtLink
+                                                href="https://www.indeed.com/hire/job-description/data-engineer"
+                                                >Description</ExtLink
+                                            >
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Data Analyst</th>
+                                        <td>Analyze and share findings about data</td>
+                                        <td>$45k-$109k</td>
+                                        <td
+                                            ><ExtLink
+                                                href="https://www.indeed.com/hire/job-description/data-analyst"
+                                                >Description</ExtLink
+                                            >
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Cybersecurity Analyst</th>
+                                        <td
+                                            >Analyze and test <a href="#cyber-security"
+                                                >cybersecurity</a
+                                            > systems</td
+                                        >
+                                        <td>$55k-$118k</td>
+                                        <td
+                                            ><ExtLink
+                                                href="https://www.coursera.org/articles/cybersecurity-analyst-job-guide"
+                                                >Description</ExtLink
+                                            >
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Penetration Tester</th>
+                                        <td>Test various systems for security vulnerabilities</td>
+                                        <td>$85k-$160k</td>
+                                        <td
+                                            ><ExtLink
+                                                href="https://www.indeed.com/career/penetration-tester"
+                                                >Description</ExtLink
+                                            >
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Fullstack Dev</th>
+                                        <td>Build and maintain all components of a system</td>
+                                        <td>$85k-$113k</td>
+                                        <td
+                                            ><ExtLink
+                                                href="https://www.indeed.com/career/full-stack-developer"
+                                                >Description</ExtLink
+                                            >
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </Table>
+                        </Card.Body>
+                    </Card>
+                </RowCol>
             </Col>
             <Col sm="1" />
             <Col sm="3" className="pe-0">
@@ -507,6 +607,7 @@ import { Envelope, Github } from "react-bootstrap-icons";
                                     <Nav.Link href="#datafication">Datafication</Nav.Link>
                                     <Nav.Link href="#digital-trust">Digital Trust</Nav.Link>
                                     <Nav.Link href="#genomics">Genomics</Nav.Link>
+                                    <Nav.Link href="#jobs">Jobs</Nav.Link>
                                 </Nav>
                             </Navbar>
                         </div>
