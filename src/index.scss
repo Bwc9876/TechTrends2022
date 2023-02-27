@@ -30,3 +30,70 @@ $acc-gradient: linear-gradient(180deg, #{$acc-light} 0%, #{$accent} 25%, #{$acc-
 .social-button:hover {
     background-image: $acc-gradient;
 }
+
+.nav-wrapper {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    position: relative;
+}
+
+$animation-time: 300ms;
+
+.nav small {
+    margin-left: 0.2em;
+}
+
+.open-nav {
+    appearance: none;
+    position: absolute;
+    top: 50%;
+    left: -3em;
+    transition: left $animation-time linear;
+}
+
+.open-nav:checked {
+    left: calc(100% - 15px);
+    right: 0;
+}
+
+.open-nav:before {
+    color: $accent;
+    cursor: pointer;
+    content: ">";
+    display: flex;
+    place-content: center;
+    padding: 2px;
+    width: 30px;
+    height: 30px;
+    z-index: 100;
+    background-color: white;
+    border: solid 1px $accent;
+    border-radius: 100%;
+    transition: transform $animation-time ease-in-out, background-color 100ms linear,
+        color 100ms linear;
+}
+
+.open-nav:hover:before {
+    background-color: $accent;
+    color: white;
+}
+
+.open-nav:checked:before {
+    transform: rotateZ(180deg);
+}
+
+.nav-content {
+    float: left;
+    overflow-x: hidden;
+    transition: width $animation-time ease-in-out;
+    white-space: nowrap;
+}
+
+.open-nav:checked ~ .nav-content {
+    width: 0;
+}
+
+.open-nav:not(:checked) ~ .nav-content {
+    width: 100%;
+}

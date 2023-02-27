@@ -1,6 +1,7 @@
 {
     "cSpell.enableFiletypes": ["astro", "markdown"],
     "cSpell.words": [
+        "apos",
         "Astro",
         "Crocker",
         "DALL",

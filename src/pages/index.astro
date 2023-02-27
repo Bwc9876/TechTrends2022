@@ -17,7 +17,7 @@ import { Envelope, Github } from "react-bootstrap-icons";
     <Container className="p-4">
         <Row as="header" id="top" className="py-2 border-start border-end border-cool">
             <Col>
-                <h1 class="d-flex align-items-center gradient-text">Tech Trends 2022</h1>
+                <h1 class="d-flex align-items-center gradient-text">Tech Trends</h1>
                 <small class="ps-1 text-muted">By Benjamin Crocker</small>
             </Col>
             <Col>
@@ -355,24 +355,161 @@ import { Envelope, Github } from "react-bootstrap-icons";
                         </li>
                     </ul>
                 </TrendCard>
+                <TrendCard
+                    name="Datafication"
+                    id="datafication"
+                    imgSrc="/TechTrends2022/images/datafication.webp"
+                    imgWidth="474"
+                    imgHeight="395"
+                >
+                    <p slot="overview">
+                        Datafication turns many aspects of reality into data, whether that be things
+                        like our relationships to others to the dogs we own. By turning these parts
+                        into data we can perform transformation and analysis on them to do a variety
+                        of things.
+                    </p>
+                    <ul slot="pros">
+                        <li>Personalized systems</li>
+                        <li>Easy population analysis</li>
+                    </ul>
+                    <ul slot="cons">
+                        <li>Privacy concerns</li>
+                        <li>Look to any dystopian novel</li>
+                    </ul>
+                    <p slot="society">
+                        I think we're already experiencing the effects of datafication with how
+                        closely companies like Google and Facebook monitor us, if it continues in
+                        the way that it's going we could see a world where our every move is
+                        monitored.
+                    </p>
+                    <ul slot="more-info">
+                        <li>
+                            <ExtLink href="https://en.wikipedia.org/wiki/Datafication">
+                                Wikipedia Article
+                            </ExtLink>
+                        </li>
+                        <li>
+                            <ExtLink href="https://www.cybertalk.org/what-is-datafication/">
+                                CyberTalk Definition
+                            </ExtLink>
+                        </li>
+                    </ul>
+                </TrendCard>
+                <TrendCard
+                    name="Digital Trust"
+                    id="digital-trust"
+                    imgSrc="/TechTrends2022/images/digital_trust.webp"
+                    imgWidth="474"
+                    imgHeight="355"
+                >
+                    <p slot="overview">
+                        Digital trust ties in a lot to <a href="#cyber-security">Cybersecurity</a>,
+                        it's about how users trust platforms and technologies with their
+                        information.
+                    </p>
+                    <ul slot="pros">
+                        <li>Users have more trust in your product</li>
+                    </ul>
+                    <ul slot="cons">
+                        <li>Can hurt usability</li>
+                        <li>Costs a lot of money</li>
+                    </ul>
+                    <p slot="society">
+                        Digital trust is something we all look for when using software, we don't
+                        want to use unsecure apps because then our data can get stolen.
+                    </p>
+                    <ul slot="more-info">
+                        <li>
+                            <ExtLink
+                                href="https://www.techtarget.com/whatis/definition/digital-trust"
+                            >
+                                TechTarget Article
+                            </ExtLink>
+                        </li>
+                        <li>
+                            <ExtLink
+                                href="https://www.digicert.com/support/resources/faq/trust-and-pki/what-is-digital-trust"
+                            >
+                                Digicert Article
+                            </ExtLink>
+                        </li>
+                    </ul>
+                </TrendCard>
+                <TrendCard
+                    name="Genomics"
+                    id="genomics"
+                    imgSrc="/TechTrends2022/images/genomics.webp"
+                    imgWidth="474"
+                    imgHeight="332"
+                >
+                    <p slot="overview">
+                        Genomics is the study of genes and DNA, while this trend leads more towards
+                        biology we use computers a lot in it, and need very specialized programs to
+                        analyze DNA.
+                    </p>
+                    <ul slot="pros">
+                        <li>We can understand more about ourselves and other species</li>
+                        <li>We can detect various afflictions such as cancer early on</li>
+                        <li>We can find vaccines and cures for various diseases and ailments</li>
+                    </ul>
+                    <ul slot="cons">
+                        <li>
+                            If we get to the point where we can &apos;fix&apos; anything, what
+                            constitutes as needing to be fixed
+                        </li>
+                        <li>Costs a lot of money to research</li>
+                    </ul>
+                    <p slot="society">
+                        I think genomics will ultimately benefit society as whole by being able to
+                        help us medically.
+                    </p>
+                    <ul slot="more-info">
+                        <li>
+                            <ExtLink href="https://en.wikipedia.org/wiki/Genomics">
+                                Wikipedia Article
+                            </ExtLink>
+                        </li>
+                        <li>
+                            <ExtLink
+                                href="https://www.genome.gov/about-genomics/fact-sheets/A-Brief-Guide-to-Genomics"
+                            >
+                                genome.gov
+                            </ExtLink>
+                        </li>
+                    </ul>
+                </TrendCard>
             </Col>
             <Col sm="1" />
             <Col sm="3" className="pe-0">
-                <div class="pe-0 py-2 mb-2 sticky-top">
-                    <div class="border-end border-cool mt-5">
-                        <small class="ps-1 text-muted fw-bold">Jump To</small>
-                        <Navbar className="flex-column align-items-stretch">
-                            <Nav className="flex-column accent-text">
-                                <Nav.Link href="#top">Top</Nav.Link>
-                                <Nav.Link href="#edge-computing">Edge Computing</Nav.Link>
-                                <Nav.Link href="#ai">Artificial Intelligence</Nav.Link>
-                                <Nav.Link href="#quantum-computing">Quantum Computing</Nav.Link>
-                                <Nav.Link href="#3d-printing">3D Printing</Nav.Link>
-                                <Nav.Link href="#cyber-security">Cybersecurity</Nav.Link>
-                                <Nav.Link href="#virtual-reality">Virtual Reality</Nav.Link>
-                                <Nav.Link href="#iot">Internet Of Things</Nav.Link>
-                            </Nav>
-                        </Navbar>
+                <div class="sticky-top py-2">
+                    <div class="nav-wrapper mt-5 pe-0 border-end border-cool">
+                        <input
+                            class="open-nav"
+                            checked
+                            type="checkbox"
+                            name="open-nav"
+                            aria-label="Open Navigation"
+                        />
+                        <div class="nav-content">
+                            <small class="ps-1 text-muted fw-bold">Jump To</small>
+                            <Navbar className="flex-column align-items-stretch">
+                                <Nav className="flex-column accent-text">
+                                    <Nav.Link href="#top">Top</Nav.Link>
+                                    <small>2022</small>
+                                    <Nav.Link href="#edge-computing">Edge Computing</Nav.Link>
+                                    <Nav.Link href="#ai">Artificial Intelligence</Nav.Link>
+                                    <Nav.Link href="#quantum-computing">Quantum Computing</Nav.Link>
+                                    <Nav.Link href="#3d-printing">3D Printing</Nav.Link>
+                                    <Nav.Link href="#cyber-security">Cybersecurity</Nav.Link>
+                                    <Nav.Link href="#virtual-reality">Virtual Reality</Nav.Link>
+                                    <Nav.Link href="#iot">Internet Of Things</Nav.Link>
+                                    <small>2023</small>
+                                    <Nav.Link href="#datafication">Datafication</Nav.Link>
+                                    <Nav.Link href="#digital-trust">Digital Trust</Nav.Link>
+                                    <Nav.Link href="#genomics">Genomics</Nav.Link>
+                                </Nav>
+                            </Navbar>
+                        </div>
                     </div>
                 </div>
             </Col>
